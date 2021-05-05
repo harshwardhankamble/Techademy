@@ -1,0 +1,212 @@
+html{
+	margin: 0rem;
+	padding: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	height: 5rem;
+}
+.nav-title{
+	width: 100%;
+	height: auto;
+	background-color: #343a40;
+	.col-sm{
+		padding: 1rem;
+		margin: 1rem 1rem 1rem 1rem;
+		h5{
+			color: #ff5c00;
+			font-weight: bolder;
+		}
+		p{
+			color: white;
+		}
+	}
+}
+#log-window{
+	margin: 1rem;
+	padding: 2rem;
+	background-color: #687791;
+	#title-info{
+		margin-top: 4rem;
+	}
+	#login-form{
+		margin-left: 2rem;
+	}
+	.btn{
+		margin-left: 1rem;
+		width: 7rem;
+	}
+	a{
+		text-align: center;
+		margin-left: 4rem;
+		color: white;
+		text-decoration-line: none;
+	}
+	a:hover{
+		color: green;
+	}
+}
+#what-we-do{
+	width: 100%;
+	height: auto;
+	.card{
+		margin: 1rem;
+		padding: 0rem;
+		text-align: justify;
+		border: none;
+	}
+}
+#news{
+	width: 100%;
+	.card{
+		margin: 1rem;
+		padding: 0rem;
+		text-align: justify;
+		border: none;
+	}
+}
+#response{
+	text-align: center;
+	.row{
+		margin-left: 12rem;
+	}
+	.col-sm-3{
+		margin: 1rem;
+		background-color: #ff5c00;
+		height: 20rem;
+		h3{
+			margin-top: 40%;
+		}
+	}
+	.container form{
+		margin-left: 5rem;
+		input{
+			width: 20rem;
+			
+			height: 3rem;
+			border-radius: 0;
+			border-width: 3px;
+		}
+		.btn{
+			border-radius: 0;
+			height: 3rem;
+			width: 20rem;
+			border: #ff5c00;
+			color: white;
+			background-color: #ff5c00;
+		}
+	}
+}
+#footer-main{
+	background: #222;
+    color: white;
+    font-size: 1rem;
+    padding: 2.0rem 0;
+	a{
+		text-decoration-line: none;
+		color: white;
+	}
+	a:hover{
+		color: green;
+		text-decoration-line: none;
+	}
+}
+@media (max-width: 667px) { 
+
+	#log-window{
+		#login-form{
+			margin-left: 0rem;
+			width: 100%;
+		}
+		.btn{
+			margin-top: 20px;
+			margin-left: 0rem;
+			width: 100%;
+		}
+		a{
+			text-align: center;
+			margin-left: 0rem;
+			color: white;
+			text-decoration-line: none;
+		}
+		a:hover{
+			color: green;
+		}
+	}
+	#response{
+		.row{
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+		.container form{
+			margin-left: 2rem;
+		}
+	}
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  
+	#log-window{
+		#login-form{
+			margin-left: 0rem;
+			width: 100%;
+		}
+		.btn{
+			margin-top: 20px;
+			margin-left: 0rem;
+			width: 100%;
+		}
+		a{
+			text-align: center;
+			margin-left: 0rem;
+			color: white;
+			text-decoration-line: none;
+		}
+		a:hover{
+			color: green;
+		}
+	}
+	#response{
+		.row{
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+		.container form{
+			margin-left: 2rem;
+		}
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#log-window{
+		#login-form{
+			margin-left: 0rem;
+			width: 100%;
+		}
+		.btn{
+			margin-top: 20px;
+			margin-left: 0rem;
+			width: 100%;
+		}
+		a{
+			text-align: center;
+			margin-left: 10rem;
+			color: white;
+			text-decoration-line: none;
+		}
+		a:hover{
+			color: green;
+		}
+	}
+	#response{
+		.row{
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+		.container form{
+			margin-left: 2rem;
+		}
+	}
+ }
